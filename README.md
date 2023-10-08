@@ -8,4 +8,8 @@ FOURIER NEURAL OPERATOR FOR PARAMETRIC PARTIAL DIFFERENTIAL EQUATIONS
 
 # Results
 ## 1-D landslide experiment
-[Comparison of 1-D landslide movement results of different profiles](https://github.com/HydroPML/Landslidecast/blob/main/Gif/1d_0.gif)
+![](https://github.com/HydroPML/Landslidecast/blob/main/Gif/1d_0.gif)  
+## 2-D landslide experiment
+![](https://github.com/HydroPML/Landslidecast/blob/main/Gif/2D_landslide_h.gif)  
+
+
