@@ -1,0 +1,50 @@
+data:
+  name: '2D_landslide-0000'
+  total_num: 12001
+  n_train: 10000
+  n_valid: 2000
+  n_test: 1
+  nx: 200
+  ny: 200
+  nt: 8
+  sub: 1
+  sub_t: 1
+  nin: 1
+  nout: 3
+  savefig_path: 'Landslide/figures/'
+model:
+  layers: [64,64,64,64,64]
+  modes1: [4,8,8,16]
+  modes2: [4,8,8,16]
+  modes3: [4,4,4,4]
+  fc_dim: 128
+  in_dim: 6
+  out_dim: 2
+  activation: 'gelu'
+  padding: 1
+
+train:
+  batchsize: 1
+  epochs: 20
+  milestones: [5,10,15]
+  #milestones: [5, 10,15]
+  base_lr: 0.001
+  scheduler_gamma: 0.5
+  ic_loss: 1.0
+  f_loss: 1.0
+  xy_loss: 1.0
+  h_loss: 7.0
+  u_loss: 1.0
+  v_loss: 1.0
+  save_dir: 'landslide'
+  save_name: '2D_landslide-0000.pt'
+  ckpt: 'checkpoints/landslide/2D_landslide-0000.pt'
+  ckpt_freq: 10
+log:
+  project: '2D_landslide'
+  group: '2D_landslide-0000'
+valid:
+  batchsize: 1
+test:
+  batchsize: 1
+  ckpt: 'checkpoints/landslide/2D_landslide-0000.pt'
