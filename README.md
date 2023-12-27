@@ -8,9 +8,9 @@ FOURIER NEURAL OPERATOR FOR PARAMETRIC PARTIAL DIFFERENTIAL EQUATIONS
 
 # Results
 ## 1-D landslide experiment
-![](https://github.com/HydroPML/Landslidecast/blob/main/Gif/1d_0.gif)  
+![](https://github.com/HydroPML/Landslidecast/blob/main/Gif/swd1d_0.gif)  
 ## 2-D landslide experiment
-![](https://github.com/HydroPML/Landslidecast/blob/main/Gif/2D_landslide_h.gif)  
+![](https://github.com/HydroPML/Landslidecast/blob/main/Gif/2d_h.gif)  
 
 # Reference
 [1] A deep learning method for dynamic process modeling of real landslides based on Fourier neural operator (under review)  
